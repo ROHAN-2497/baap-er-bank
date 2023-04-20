@@ -6,10 +6,10 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
    const passwordField = document.getElementById('user-password');
    const password = passwordField.value
-   if(email === 'sontan@bap.com' && password === "secret"){
-    console.log('valid user')
+   if(email === 'sontan@bap.com' && password === "rohan"){
+    window.location.href = 'bank.html'
    }
    else {
-    console.log('invalid user')
+    alert('tui password vule gesos. toke teijjo sontan kore dilam')
    }
 })
